@@ -3,61 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futuristic Dashboard</title>
+    <title>Baldur's Gate 3 - Fan Interface</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Spectral:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <aside class="sidebar">
-            <div class="brand">CORE<span>.</span></div>
-            <nav>
-                <div class="nav-item active">Dashboard</div>
-                <div class="nav-item">Mercado</div>
-                <div class="nav-item">Carteira</div>
-                <div class="nav-item">Configurações</div>
-            </nav>
-            <div class="profile-card">
-                <div class="avatar"></div>
-                <span>Alex Silva</span>
+    <div class="vignette"></div>
+
+    <header class="main-header">
+        <div class="ornament-left"></div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">CAMPANHA</a></li>
+                <li><a href="#">PERSONAGENS</a></li>
+                <li class="logo-item"><img src="SEU_LOGO_AQUI.png" alt="BG3 Logo" class="logo"></li>
+                <li><a href="#">MAGIAS</a></li>
+                <li><a href="#">MULTIVERSO</a></li>
+            </ul>
+        </nav>
+        <div class="ornament-right"></div>
+    </header>
+
+    <main class="content-wrapper">
+        
+        <section class="hero-section">
+            <div class="hero-image-container">
+                <div class="hero-placeholder">IMAGEM ÉPICA DE FUNDO AQUI</div>
+                <div class="hero-overlay"></div>
             </div>
-        </aside>
-
-        <main class="main-content">
-            <header class="top-bar">
-                <input type="text" placeholder="Pesquisar ativos...">
-                <button class="btn-primary">Conectar Wallet</button>
-            </header>
-
-            <section class="grid-layout">
-                <div class="card hero-card">
-                    <h2>Nova Coleção: <br>Cyber-Neo</h2>
-                    <p>Explore o futuro da arte digital hoje.</p>
-                    <button class="glass-btn">Ver Agora</button>
+            
+            <div class="hero-content">
+                <h1 class="title-gold">REFORGE O SEU DESTINO</h1>
+                <p class="subtitle">Reúna seu grupo e retorne aos Reinos Esquecidos em uma história de companheirismo e traição.</p>
+                <div class="button-group">
+                    <button class="btn-fantasy">JOGAR AGORA</button>
+                    <button class="btn-fantasy secondary">EXPLORAR LORE</button>
                 </div>
+            </div>
+        </section>
 
-                <div class="card stats-card">
-                    <h3>Atividade</h3>
-                    <div class="chart-placeholder"></div>
+        <section class="companion-grid">
+            <div class="fantasy-card">
+                <div class="card-frame"></div>
+                <div class="card-img-space">FOTO DO COMPANHEIRO</div>
+                <div class="card-info">
+                    <h3>Shadowheart</h3>
+                    <span>Clériga de Shar</span>
                 </div>
+            </div>
 
-                <div class="card inventory-card">
-                    <h3>Tendências</h3>
-                    <div class="item-list">
-                        <div class="item"><span>#1 EtherArt</span> <strong>+12%</strong></div>
-                        <div class="item"><span>#2 GlitchBoy</span> <strong>+8%</strong></div>
-                        <div class="item"><span>#3 NeonCity</span> <strong>-2%</strong></div>
-                    </div>
+            <div class="fantasy-card">
+                <div class="card-frame"></div>
+                <div class="card-img-space">FOTO DO COMPANHEIRO</div>
+                <div class="card-info">
+                    <h3>Astarion</h3>
+                    <span>Ladino Elfo</span>
                 </div>
+            </div>
 
-                <div class="card glass-card">
-                    <h3>Saldo Total</h3>
-                    <div class="balance">14.50 ETH</div>
-                    <small>≈ R$ 142.400,00</small>
+            <div class="fantasy-card">
+                <div class="card-frame"></div>
+                <div class="card-img-space">FOTO DO COMPANHEIRO</div>
+                <div class="card-info">
+                    <h3>Gale</h3>
+                    <span>Mago Humano</span>
                 </div>
-            </section>
-        </main>
-    </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="game-footer">
+        <div class="divider-gold"></div>
+        <p>Lançado pela Larian Studios. Baseado em Dungeons & Dragons.</p>
+    </footer>
 
 </body>
 </html>
