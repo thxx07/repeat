@@ -3,81 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baldur's Gate 3 - Fan Interface</title>
+    <title>Baldur's Gate 3 Concept</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Spectral:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Spectral:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="vignette"></div>
+    <div class="vignette-overlay"></div>
 
-    <header class="main-header">
-        <div class="ornament-left"></div>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="#">CAMPANHA</a></li>
-                <li><a href="#">PERSONAGENS</a></li>
-                <li class="logo-item"><img src="SEU_LOGO_AQUI.png" alt="BG3 Logo" class="logo"></li>
-                <li><a href="#">MAGIAS</a></li>
-                <li><a href="#">MULTIVERSO</a></li>
-            </ul>
-        </nav>
-        <div class="ornament-right"></div>
-    </header>
-
-    <main class="content-wrapper">
+    <div class="main-container">
         
-        <section class="hero-section">
-            <div class="hero-image-container">
-                <div class="hero-placeholder">IMAGEM ÉPICA DE FUNDO AQUI</div>
-                <div class="hero-overlay"></div>
-            </div>
-            
-            <div class="hero-content">
-                <h1 class="title-gold">REFORGE O SEU DESTINO</h1>
-                <p class="subtitle">Reúna seu grupo e retorne aos Reinos Esquecidos em uma história de companheirismo e traição.</p>
-                <div class="button-group">
-                    <button class="btn-fantasy">JOGAR AGORA</button>
-                    <button class="btn-fantasy secondary">EXPLORAR LORE</button>
+        <header class="game-nav">
+            <div class="nav-border-top"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">CAMPANHA</a></li>
+                    <li><a href="#">PERSONAGENS</a></li>
+                    <li class="logo-space">
+                        <div class="placeholder-logo">LOGO</div>
+                    </li>
+                    <li><a href="#">INVENTÁRIO</a></li>
+                    <li><a href="#">MAPA</a></li>
+                </ul>
+            </nav>
+            <div class="nav-border-bottom"></div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-frame">
+                    <div class="hero-image-placeholder">IMAGEM DE FUNDO ÉPICA</div>
+                    <div class="hero-gradient"></div>
+                    
+                    <div class="hero-content">
+                        <h1 class="title-ornament">REFORGE SEU DESTINO</h1>
+                        <p>Cada escolha é uma jogada de dados. O destino dos Reinos Esquecidos está em suas mãos.</p>
+                        <button class="bg3-button">
+                            <span class="btn-text">INICIAR AVENTURA</span>
+                            <div class="btn-shine"></div>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="companion-grid">
-            <div class="fantasy-card">
-                <div class="card-frame"></div>
-                <div class="card-img-space">FOTO DO COMPANHEIRO</div>
-                <div class="card-info">
-                    <h3>Shadowheart</h3>
-                    <span>Clériga de Shar</span>
+            <section class="info-grid">
+                <div class="fantasy-card">
+                    <div class="card-inner">
+                        <div class="card-image">
+                            </div>
+                        <h3>Mestre das Sombras</h3>
+                        <p>Explore as profundezas de Underdark com furtividade e magia proibida.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="fantasy-card">
-                <div class="card-frame"></div>
-                <div class="card-img-space">FOTO DO COMPANHEIRO</div>
-                <div class="card-info">
-                    <h3>Astarion</h3>
-                    <span>Ladino Elfo</span>
+                <div class="fantasy-card">
+                    <div class="card-inner">
+                        <div class="card-image">
+                            </div>
+                        <h3>Poder Arcano</h3>
+                        <p>Domine o tecer da magia e molde a realidade conforme sua vontade.</p>
+                    </div>
                 </div>
-            </div>
+            </section>
+        </main>
 
-            <div class="fantasy-card">
-                <div class="card-frame"></div>
-                <div class="card-img-space">FOTO DO COMPANHEIRO</div>
-                <div class="card-info">
-                    <h3>Gale</h3>
-                    <span>Mago Humano</span>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="game-footer">
-        <div class="divider-gold"></div>
-        <p>Lançado pela Larian Studios. Baseado em Dungeons & Dragons.</p>
-    </footer>
+        <footer class="game-footer">
+            <div class="footer-divider"></div>
+            <p>&copy; 2026 - Inspirado no Universo de D&D</p>
+        </footer>
+    </div>
 
 </body>
 </html>
